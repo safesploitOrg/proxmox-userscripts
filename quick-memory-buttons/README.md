@@ -29,4 +29,4 @@ Once the script is installed, visit your Proxmox VE web interface. When you open
 If you need to customize the script for your specific Proxmox setup, make sure to update the `@match` metadata at the beginning of the script to match your Proxmox URL. This ensures that the script is applied correctly to your Proxmox VE instance.
 
 ```javascript
-// @match       https://your-proxmox-url.tld/*
+// @match       https://pve.example.com:8006
