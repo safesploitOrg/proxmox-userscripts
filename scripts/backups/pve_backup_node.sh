@@ -12,6 +12,11 @@
 #       /etc/pve/qemu-server/100.conf
 #       /etc/network/interfaces
 #       /pve-meta-*/qemu_list.txt
+#
+# CRONJOB (daily at 2:00am):
+#   sudo crontab -e
+#   Add the following line:
+#     * 2 * * * /usr/local/bin/pve_backup_node.sh >> /var/log/pve_backup_node.log 2>&1
 # ----------------------------------------
 
 # ========== GLOBAL VARS ==========
